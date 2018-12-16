@@ -26,8 +26,9 @@ hr {
 .cright {
 	display: block;
 	max-width: 800px;
-	min-width: 500px;
+	min-width: 200px;
 	float: right;
+	width: 60%;
 }
 
 .cright p {
