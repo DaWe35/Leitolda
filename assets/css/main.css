@@ -5,9 +5,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+h1 {
+	margin: 0px !important;
+}
 hr {
 	opacity: 0.8;
+	margin-top: 0px !important;
+	margin-bottom: 30px !important;
 }
 
 .crow {
@@ -19,8 +23,12 @@ hr {
 	display: block;
 	max-width: 400px;
 	min-width: 200px;
-	float: left;
 	font-size: 110%;
+}
+
+.cleft p {
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 .cright {
@@ -32,7 +40,7 @@ hr {
 }
 
 .cright p {
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 }
 
 .email {
